@@ -13,18 +13,12 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
    
         
-        Box *box1 = [[Box alloc] init];
+        Box *box1 = [[Box alloc] initWithHeight:10 width:100 length:100];
         
-        box1.height = 10;
-        box1.width = 100;
-        box1.length = 10;
         
-        Box *box2 = [[Box alloc] init];
+        Box *box2 = [[Box alloc] initWithHeight:10 width:10 length:10];
         
-        box1.height = 200;
-        box1.width = 300;
-        box1.length = 400;
-        
+                
         float volume = [box1 volume];
         
         

@@ -19,4 +19,6 @@
 
 - (float)boxInBox:(Box *)secondBox;
 
+- (instancetype)initWithHeight:(float)boxHeight width:(float)boxWidth length:(float)boxLength;
+
 @end

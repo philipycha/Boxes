@@ -15,15 +15,13 @@
     return self.height * self.width * self.length;
 }
 
-
-
-- (instancetype)init
+- (instancetype)initWithHeight:(float)boxHeight width:(float)boxWidth length:(float)boxLength
 {
     self = [super init];
     if (self) {
-        _height = 10;
-        _width = 10;
-        _length = 10;
+        _height = boxHeight;
+        _width = boxWidth;
+        _length = boxLength;
     }
     
     return self;
